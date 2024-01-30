@@ -1,0 +1,610 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container1{
+    width:100%;
+    background-color:white;
+   
+    padding-left:40px;
+    padding-right: 40px;
+  margin-top:4px;
+   
+}
+.frst{
+  display: flex;
+
+ flex-direction: row;
+ padding-left:210px;
+ padding-right: 130px;
+ 
+}
+.frst-1{
+    text-decoration: none;
+    color:Black;
+    font-weight: bold;
+    font-size:1.4vw;
+}
+.para{
+    color:grey;
+   font-size: 17px;
+    padding-top: 7px;
+}
+.frst-b{
+    background-color:#fd5f00;
+    
+    width:140px;
+   padding:15px;
+    font-weight: bold;
+    color:white;
+    border:1px black;
+    margin-right:52px;
+    border-radius: 8px;
+  
+}
+.nav-top{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+   flex-direction: row;
+   
+}
+
+.center{
+    
+    background-color:#0d1128;
+    width:80%;
+  
+   padding:15px;
+   position: relative;
+    display:flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+  
+   
+}
+.center-0{ 
+    display: flex;
+    justify-content: center;
+}
+
+.con1{
+   margin-left: 20px;
+    color:white; 
+    text-decoration:none;
+    
+}
+.con1-1{
+  
+     color:#fd5f00;
+     text-decoration:none;
+ }
+.con2{
+   
+   padding-top:7px;
+   padding-bottom:7px;
+    border-radius: 15px;
+    background-color: #0d1128;
+    border:1px;
+ 
+   
+}
+.container2{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+   padding-bottom: 400px;
+    display: block;
+    background-image: url("img/MyCollege-Cover.jpg") ;
+    box-shadow: inset 0 0 0 1000px rgba(253, 97, 0, 0.211); 
+   color:white;
+      
+}
+
+.container3{
+   display: flex;
+   justify-content: space-evenly;
+    width:100%;
+   
+   
+}
+.n1{
+   width:25%;
+   
+    border: 1px solid black;
+    padding:30px;
+ 
+  
+    color:white;
+    background-color:#fd5f00 ;
+    display:flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+    
+}
+.n2{
+    width:25%;
+   
+     border: 1px solid black;
+     padding:30px;
+    
+   
+     color:white;
+     background-color:#0d1128;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+ 
+ .Apply{
+    margin-right:6%;
+ }
+ 
+ .number{
+ display: flex;
+justify-content: space-around;
+padding-left: 50px;
+ 
+ }
+ 
+ .mail{
+   
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+ }
+ 
+ .n1-1{
+ display: flex;
+ justify-content: center;
+
+ 
+ 
+ margin-top:12px;
+  font-size: 1.5vw;
+  margin-bottom: 4px;
+ }
+ .n1-2{
+   display: flex;
+   justify-content: center;
+  
+   margin-left: 20px;
+   font-size: 1vw;
+   line-height:25px;
+ }
+ .n2-1{
+    display: flex;
+    justify-content: center;
+   margin-top: 15px;
+    
+     font-size:  1.5vw;
+     margin-bottom: 18px;
+     line-height:25px;
+    }
+    .n2-2{
+      display: flex;
+      justify-content: center;
+     
+      margin-left: 20px;
+      font-size: 1vw;
+      line-height:25px;
+    }
+    .cover-txt1{
+        
+        width:35%;
+        display: flex;
+        justify-content:center;
+       
+       padding-top: 90px;
+  font-size: 1.7vw;
+      
+    }
+    .cover-txt2{
+       
+        width:40%;
+        display:flex;
+        justify-content: center;
+        padding-top: 25px;
+        padding-left: 17px;
+        font-size: 1.5vw;
+       
+    }
+    .cover-log{
+        width:150px;
+       
+        background-color: #fd5f00;
+        color:white;
+        font-size:1.5vw;
+        font-weight: bold;
+        border:1px black;
+        padding:12px;
+        border-radius: 8px;
+       
+    }
+    .cover-button{
+        padding-top:20px;
+        display:flex;
+        justify-content:center;
+        width:35%;
+       
+    }
+    
+    
+    
+    
+    .icon-plane{
+        color: #fd5f00;
+        font-size: 1.5vw;
+       
+       
+    }
+     
+    
+     
+    .icon-plane:before {
+        content: "\f1d8";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+       
+        margin-right: 5px;
+       
+       
+        
+    }
+   
+
+   
+    .plane{
+     
+       
+        margin-top: 12px;
+    }
+    .icon-call::before{
+        content: "\f095";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+       
+        margin-right: 5px;
+       
+    }
+    .icon-call{
+        color: #fd5f00;
+        font-size: 1.5vw;
+       
+       
+    }
+    .call{
+       
+       
+        margin-top: 12px;
+    }
+    
+    .flaticon-teacher{ 
+      width:300px;
+    
+    padding-bottom:10px;
+    
+    }
+    
+    
+    
+    
+   
+    .third{
+
+
+
+width:100%;
+display: flex;
+justify-content: space-evenly;
+
+padding-top:60px
+
+    }
+    
+    .third1-1{
+        width:100%;
+       
+       
+     
+       font-size: 28px;
+
+    }
+    .third1-2{
+       
+       
+       
+       margin-top: 20px;
+     
+       font-size: 20px;
+       line-height: 25px;
+      
+    }
+    
+    
+    
+    .all{
+        width:80%;
+        background-color: #0d1128;
+       display: flex;
+       justify-content: space-between;
+        
+    }
+    .third3-1 h3{
+
+width:100%;
+
+font-size: 25px;
+padding-bottom: 10px;
+padding-left:0px;
+    }
+    .third3-1 h4{
+       
+     line-height: 25px;
+     font-size: 15px;
+     padding-left:0px;
+      
+    }
+   
+    .i2-1{
+       
+      width:150px;
+     
+    
+       
+    }
+    .read{
+      
+      width:80%;
+      
+       background-color: #fd5f00;
+       border-radius: 50%;
+    }
+    .third3{
+        display: flex;
+        justify-content: space-evenly;
+        padding:20px;
+       
+    }
+    
+    .wrap{
+       
+       width:50%;
+        
+    }
+    .one{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    
+
+    .third2-1 h3{
+
+        width:100%;
+        
+        font-size: 25px;
+        padding-bottom: 10px;
+        padding-left:0px;
+            }
+            .third2-1 h4{
+               
+             line-height: 25px;
+             font-size: 15px;
+             padding-left:0px;
+              
+            }
+           
+            .i1{
+               
+                width:150px;
+              
+              
+              
+            
+               
+            }
+            
+            .third2{
+                display: flex;
+                justify-content: space-evenly;
+                padding:20px;
+               
+            }
+            
+           
+           
+            .third4-1 h3{
+
+                width:100%;
+                
+                font-size: 25px;
+                padding-bottom: 10px;
+                padding-left:0px;
+                    }
+                    .third4-1 h4{
+                       
+                     line-height: 25px;
+                     font-size: 15px;
+                     padding-left:0px;
+                      
+                    }
+                   
+                    .i3{
+                       
+                      width:150px;
+                     
+                    
+                       
+                    }
+                   
+                    .third4{
+                        display: flex;
+                        justify-content: space-evenly;
+                        padding:20px;
+                       
+                    }
+                    
+                   .two{
+                    display: flex;
+                    justify-content: space-evenly;
+                   }
+                   
+                    
+                
+                    .third5-1 h3{
+                
+                        width:100%;
+                        
+                        font-size: 25px;
+                        padding-bottom: 10px;
+                        padding-left:0px;
+                            }
+                            .third5-1 h4{
+                               
+                             line-height: 25px;
+                             font-size: 15px;
+                             padding-left:0px;
+                              
+                            }
+                           
+                            .i4{
+                               
+                                width:150px;
+                              
+                              
+                              
+                            
+                               
+                            }
+                            
+                            .third5{
+                                display: flex;
+                                justify-content: space-evenly;
+                                padding:20px;
+                               
+                            }
+            
+
+           
+                          
+                          
+                            .third6-1 h3{
+
+                                width:100%;
+                                
+                                font-size: 25px;
+                                padding-bottom: 10px;
+                                padding-left:0px;
+                                    }
+                                    .third6-1 h4{
+                                       
+                                     line-height: 25px;
+                                     font-size: 15px;
+                                     padding-left:0px;
+                                      
+                                    }
+                                   
+                                    .i5{
+                                       
+                                        width:150px;
+                                      
+                                    
+                                       
+                                    }
+                                    
+                                    .third6{
+                                        display: flex;
+                                        justify-content: space-evenly;
+                                        padding:20px;
+                                      
+                                    }
+                                    
+                                    
+                                    .three{
+                                        display: flex;
+                                        justify-content: space-evenly;
+                                    }
+                                   
+                                    .third7-1 h3{
+
+                                        width:100%;
+                                        
+                                        font-size: 25px;
+                                        padding-bottom: 10px;
+                                        padding-left:0px;
+                                            }
+                                            .third7-1 h4{
+                                               
+                                             line-height: 25px;
+                                             font-size: 15px;
+                                             padding-left:0px;
+                                              
+                                            }
+                                           
+                                            .i6{
+                                             
+                                                width:150px;
+                                               
+                                            }
+                                            
+                                           
+                                            .third7{
+                                                display: flex;
+                                                justify-content: space-evenly;
+                                                padding:20px;
+                                               
+                                            }
+             
+                   .Logo{
+                    width:200px;
+                   
+                   }
+                  .abt{
+                   
+                    padding-top: 15%;
+                   
+                  }      
+                  .contain{
+                    background-color:#232323;
+                    color:white;
+                  
+                  }    
+                  .em{
+                    border-radius: 2px;
+                    border:1px;
+                    padding-top:4px;
+                    padding-bottom: 4px;
+                  }         
+                  .sub{
+                    border-radius: 2px;
+                    border:1px;
+                    padding-top:4px;
+                    padding-bottom: 4px;
+                  }
+                  .sear::before{
+                    content: "\f002";
+                   color:white;
+                   font-family: FontAwesome;
+                   font-style: normal;
+                   font-weight: normal; 
+                   
+                } 
+                .abt{
+                    width:35%;
+                }
+                .hello{
+                    display: flex;
+                    justify-content: space-evenly;
+                }

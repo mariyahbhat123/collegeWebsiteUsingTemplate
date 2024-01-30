@@ -1,0 +1,78 @@
+*{
+    padding:0;
+    margin:0;
+}
+.container-0{
+    background-color: #0d1128;
+}
+.form-control{
+  width:100%;
+}
+.container{
+   width:32%;
+   padding-top:40px;
+   padding-bottom:40px;
+  margin-top: 70px;
+  background-color: #0d1128;
+  color:white;
+  border-radius: 10%;
+}
+.container3{
+  display: flex;
+  justify-content: center;
+}
+.btn{
+    width:40%;
+   border:1px solid #fd5f00;
+   color:white;
+  
+} 
+.btn:hover{
+    background-color: #fd5f00;
+}
+.bi{
+    color:#fd5f00;
+}
+.forgot{
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    color:white;
+}
+.container5{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.register{
+    text-decoration: none;
+    color:#fd5f00;
+}
+.Logo{
+    width:120px;
+  
+   
+ 
+}
+.container-0{
+    display: flex;
+    justify-content: space-between;
+    padding-left:10px;
+    padding-right:10px;
+}
+  
+.conn1 a{
+    text-decoration: none;
+    color: white;
+  
+   font-size: 18px;
+   
+ 
+}
+.conn1{
+    width:15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
